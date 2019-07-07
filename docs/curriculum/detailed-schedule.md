@@ -52,20 +52,18 @@ instructor will be at your hotel and their expected departure time for the Fluno
 | 8:00  | 8:45  | Breakfast and group discussion                                        |                          |
 | 9:00  | 9:15  | Welcome                                                               | Tim Cartwright           |
 | 9:15  | 9:45  | Introduction to High Throughput Computing (lecture)                   | Lauren Michael           |
-| 9:45  | 10:30 | Running jobs locally with HTCondor, Part 1 (hands-on) 	"           |                          |
-| 10:30 | 10:45 | Break                                                                 |                          |
-| 10:45 | 11:15 | Intermediate HTCondor (lecture)                                       | Lauren Michael           |
-| 11:15 | 12:15 | Running jobs locally with HTCondor, Part 2 (hands-on)                 | "                        |
+| 9:45  | 10:45 | Running simple jobs with HTCondor (hands-on) 	                        | "                        |
+| 10:45 | 11:00 | Break                                                                 |                          |
+| 11:00 | 11:30 | Running Many HTC Jobs (lecture)                                       | Lauren Michael           |
+| 11:30 | 12:15 | Submitting and managing many HTCondor jobs (hands-on)                 | "                        |
 | 12:15 | 1:15  | Lunch                                                                 |                          |
-| 1:15  | 1:45  | Introduction to workflows (lecture)                                   | Lauren Michael           |
-| 1:45  | 3:15  | Running workflows locally with HTCondor and DAGMan, Part 1 (hands-on) | "                        |
-| 3:15  | 3:30  | Break                                                                 |                          |
-| 3:30  | 4:00  | Intermediate workflows (lecture)                                      | Lauren Michael           |
-| 4:00  | 5:00  | Running workflows locally with HTCondor and DAGMan, Part 2 (hands-on) | "                        |
+| 1:15  | 1:45  | HTCondor Job Matching and Automation (lecture)                        | Lauren Michael           |
+| 1:45  | 2:45  | Job attributes and automation (hands-on)                              | "                        |
+| 2:45  | 3:00  | Break                                                                 |                          |
+| 3:00  | 3:45  | Automating HTC Workflows (lecture)                                    | Lauren Michael           |
+| 3:45  | 5:00  | Running workflows locally with HTCondor's DAGMan (hands-on)           | "                        |
 | 5:00  | —     | On your own                                                           |                          |
-| 7:00  | 9:00  | Evening work session												    | Bala, Derek, Lauren, Tim |
-
-The evening work session will be at Union South; search the “Today In The Union” (TITU) display for the exact room.  
+| 7:00  | 9:00  | Evening work session<br><span style="color: #FF6600;">Union South, Traditions room (2nd floor)</span> | Bala, Derek, Lauren, Tim |
 
 ## Tuesday, 10 July 2018
 
@@ -87,9 +85,7 @@ The evening work session will be at Union South; search the “Today In The Unio
 | 3:25  | 4:45  | Troubleshooting (hands-on)                         | "                      |
 | 4:45  | 5:00  | Ways to connect to OSG (lecture)                   | Lauren Michael         |
 | 5:00  | —     | On your own                                        |                        |
-| 7:00  | 9:00  | Evening work session                               | Bala, Derek, Christina |
-
-The evening work session will be at Union South; search the “Today In The Union” (TITU) display for the exact room.  
+| 7:00  | 9:00  | Evening work session<br><span style="color: #FF6600;">Union South, Wisconsin Idea room (2nd floor)</span> | Bala, Derek, Brian |
 
 ## Wednesday, 11 July 2018
 
@@ -106,9 +102,7 @@ The evening work session will be at Union South; search the “Today In The Unio
 | 12:15 | 1:15  | Lunch                                                |                       |
 | 1:15  | 5:00  | Free Choice (with options provided)                  | Group                 |
 | 5:00  | —     | On your own                                          |                       |
-| 7:00  | 9:00  | Evening work session                                 | Derek, Christina, Tim |
-
-The evening work session will be at Union South; search the “Today In The Union” (TITU) display for the exact room.  
+| 7:00  | 9:00  | Evening work session<br><span style="color: #FF6600;">Union South, Traditions room (2nd floor)</span> | Derek, Christina, Tim |
 
 ## Thursday, 12 July 2018
 

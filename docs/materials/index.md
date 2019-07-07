@@ -2,13 +2,13 @@
 status: in progress
 ---
 
-# 2017 OSG User School Materials
+# 2018 OSG User School Materials
 
 ## Monday
 
-### Monday Morning: Introduction to HTC
+### Monday Morning: Introduction to HTC and HTCondor
 
-- Lecture: Introduction to HTC ([PDF](/materials/day1/files/osgus18-day1-part1-intro-to-htc.pdf))
+- Lecture: Introduction to HTC ([PDF](/materials/day1/files/osgus18-day1-part1-intro-to-htc.pdf);[PPT](/materials/day1/files/osgus18-day1-part1-intro-to-htc.pptx))
 - [Exercise 1.1: Log in to the local submit machine and look around](/materials/day1/part1-ex1-login.md)
 - [Exercise 1.2: Experiment with basic HTCondor commands](/materials/day1/part1-ex2-commands.md)
 - [Exercise 1.3: Run jobs!](/materials/day1/part1-ex3-jobs.md)
@@ -17,37 +17,36 @@ status: in progress
 - [Exercise 1.6: Remove jobs from the queue](/materials/day1/part1-ex6-remove.md)
 - [Bonus Exercise 1.7: Compile and run some C code](/materials/day1/part1-ex7-compile.md)
 
-### Monday Morning: More HTCondor
+### Monday Morning: Running Many HTC Jobs
 
-- Lecture: More HTCondor ([PDF](/materials/day1/files/osgus18-day1-part2-more-htcondor.pdf))
-- [Exercise 2.1: Explore `condor_q`](/materials/day1/part2-ex1-queue.md)
-- [Exercise 2.2: Explore `condor_status`](/materials/day1/part2-ex2-status.md)
-- [Exercise 2.3: Work with input and output files](/materials/day1/part2-ex3-files.md)
-- [Exercise 2.4: Use `queue <em>N</em>`, `$(Cluster)`, and `$(Process)`](/materials/day1/part2-ex4-queue-n.md)
-- [Exercise 2.5: Use `queue matching`, and a custom variable](/materials/day1/part2-ex5-queue-matching.md)
-- [Exercise 2.6: Use `queue from`, and custom variables](/materials/day1/part2-ex6-queue-from.md)
+- Lecture: More HTCondor ([PDF](/materials/day1/files/osgus18-day1-part2-many-HTCondor-jobs.pdf);[PPT](/materials/day1/files/osgus18-day1-part2-many-HTCondor-jobs.pptx))
+- [Exercise 2.1: Work with input and output files](/materials/day1/part2-ex1-files.md)
+- [Exercise 2.2: Use `queue N`, `$(Cluster)`, and `$(Process)`](/materials/day1/part2-ex2-queue-n.md)
+- [Exercise 2.3: Use `queue matching` with a custom variable](/materials/day1/part2-ex3-queue-matching.md)
+- [Exercise 2.4: Use `queue from` with custom variables](/materials/day1/part2-ex4-queue-from.md)
 
-### Monday Afternoon: Retrying jobs and Workflows with DAGMan
+### Monday Afternoon: Job Attributes and Handling
 
-- Lecture: Intermediate HTCondor: Workflows ([PDF](/materials/day1/files/osgus18-day1-part3-dagman1.pdf))
-- [Exercise 3.1: A job that needs retries](/materials/day1/part3-ex1-job-retry.md)
-- [Exercise 3.2: A brief detour through the Mandelbrot set](/materials/day1/part3-ex2-mandelbrot.md)
-- [Exercise 3.3: Coordinating set of jobs: A simple DAG](/materials/day1/part3-ex3-simple-dag.md)
-- [Exercise 3.4: A more complex DAG](/materials/day1/part3-ex4-complex-dag.md)
+- Lecture: Intermediate HTCondor: Workflows ([PDF](/materials/day1/files/osgus18-day1-part3-matching-handling.pdf);[PPT](/materials/day1/files/osgus18-day1-part3-matching-handling.pptx))
+- [Exercise 3.1: Explore `condor_q`](/materials/day1/part3-ex1-queue.md)
+- [Exercise 3.2: Explore `condor_status`](/materials/day1/part3-ex2-status.md)
+- [Exercise 3.3: A job that needs retries](/materials/day1/part3-ex3-job-retry.md)
 
-### Monday Afternoon: Intermediate Workflows with DAGMan
+### Monday Afternoon: Automating Workflows with HTCondor's DAGMan
 
-- Lecture: HTCondor: More on Workflows ([PDF](/materials/day1/files/osgus18-day1-part4-dagman2.pdf))
-- [Exercise 4.1: Handling jobs that fail with DAGMan](/materials/day1/part4-ex1-failed-dag.md)
-- [Exercise 4.2: Simpler DAGs with variable substitutions](/materials/day1/part4-ex2-dag-vars.md)
-- [Exercise 4.3: Using DAG SPLICE for node organization](/materials/day1/part4-ex3-dag-splice.md)
-- [Bonus Exercise 4.4: HTCondor challenges](/materials/day1/part4-ex4-challenges.md) (If and only if you have time)
+- Lecture: HTCondor: More on Workflows ([PDF](/materials/day1/files/osgus18-day1-part4-dagman.pdf);[PPT](/materials/day1/files/osgus18-day1-part4-dagman.pptx))
+- [Exercise 4.1: Coordinating set of jobs: A simple DAG](/materials/day1/part4-ex1-simple-dag.md)
+- [Exercise 4.2: A brief detour through the Mandelbrot set](/materials/day1/part4-ex2-mandelbrot.md)
+- [Exercise 4.3: A more complex DAG](/materials/day1/part4-ex3-complex-dag.md)
+- [Exercise 4.4: Handling jobs that fail with DAGMan](/materials/day1/part4-ex4-failed-dag.md)
+- [Bonus Exercise 4.5: HTCondor challenges](/materials/day1/part4-ex5-challenges.md) (If and only if you have time)
 
 ## Tuesday
 
 ### Tuesday Morning: Introduction to Distributed HTC and Overlay Systems
 
-- Lecture: Introduction to DHTC ([PDF](/materials/day2/files/osgus18-day2-part1-intro-to-dhtc.pdf))
+- Lecture: Introduction to DHTC ([PDF](/materials/day2/files/osgus18-day2-part1-intro-to-dhtc.pdf);
+  [PPT](/materials/day2/files/osgus18-day2-part1-intro-to-dhtc.pptx))
 - [Exercise 1.1: Refresher - Submitting multiple jobs](/materials/day2/part1-ex1-submit-refresher.md)
 - [Exercise 1.2: Log in to the OSG submit machine](/materials/day2/part1-ex2-login-scp.md)
 - [Exercise 1.3: Running jobs in the OSG](/materials/day2/part1-ex3-submit-osg.md)
@@ -55,17 +54,20 @@ status: in progress
 ### Tuesday Morning: Comparing Local and Remote HTC
 
 - Lecture: What is different about overlay systems?
-  ([PDF](/materials/day2/files/osgus18-day2-part2-overlay-differences.pdf))
+  ([PDF](/materials/day2/files/osgus18-day2-part2-overlay-differences.pdf);
+  [PPT](/materials/day2/files/osgus18-day2-part2-overlay-differences.pptx))
 - [Exercise 2.1: Hardware differences in the OSG](/materials/day2/part2-ex1-hardware-diffs.md)
 - [Exercise 2.2: Software differences in the OSG](/materials/day2/part2-ex2-software-diffs.md)
 
 ### Tuesday Afternoon: Security in OSG
 
-- Lecture: Security in OSG ([PDF](/materials/day2/files/osgus18-day2-part3-security.pdf))
+- Lecture: Security in OSG ([PDF](/materials/day2/files/osgus18-day2-part3-security.pdf);
+  [PPT](/materials/day2/files/osgus18-day2-part3-security.pptx))
 
 ### Tuesday Afternoon: Troubleshooting jobs
 
-- Lecture: Troubleshooting jobs ([PDF](/materials/day2/files/osgus18-day2-part4-troubleshooting.pdf))
+- Lecture: Troubleshooting jobs ([PDF](/materials/day2/files/osgus18-day2-part4-troubleshooting.pdf);
+  [PPT](/materials/day2/files/osgus18-day2-part4-troubleshooting.pptx))
 - [Exercise 3.1: Troubleshooting a DAG](/materials/day2/part3-ex1-troubleshooting.md)
 
 ### Tuesday Afternoon: Connecting to OSG
@@ -76,7 +78,7 @@ status: in progress
 
 ### Wednesday Morning: Software Portability
 
-- Lecture: Software Portability for DHTC ([PDF](/materials/day3/files/osgus18-day3-part1-software-portability.pdf))
+- Lecture: Software Portability for DHTC ([PDF](/materials/day3/files/osgus18-day3-part1-software-portability.pdf); [PPT](/materials/day3/files/osgus18-day3-part1-software-portability.pptx))
 - [Exercise 1.1: Compiling programs for portability](/materials/day3/part1-ex1-compiling.md)
 - [Exercise 1.2: Using a pre-compiled binary](/materials/day3/part1-ex2-precompiled.md)
 - [Exercise 1.3: Using a wrapper script](/materials/day3/part1-ex3-wrapper.md)
@@ -86,15 +88,15 @@ status: in progress
 ### Wednesday Morning: Software Limitations
 
 - Lecture: Considerations for licensing and programming packages
-  ([PDF](/materials/day3/files/osgus18-day3-part2-software-license-interpret.pdf))
-- [Exercise 1.6: Compile and run Matlab code](/materials/day3/part2-ex1-matlab.md)
-- [Exercise 1.7: Pre-packaging Python](/materials/day3/part2-ex2-python-built.md)
-- [Exercise 1.8: In-job installation of Python](/materials/day3/part2-ex3-python-install.md)
-- [Bonus Exercise 1.9: Using containers](/materials/day3/part2-ex4-containers.md)
+  ([PDF](/materials/day3/files/osgus18-day3-part2-software-license-interpret.pdf); [PPT](/materials/day3/files/osgus18-day3-part2-software-license-interpret.pptx))
+- [Exercise 2.1: Compile and run Matlab code](/materials/day3/part2-ex1-matlab.md)
+- [Exercise 2.2: Pre-packaging Python](/materials/day3/part2-ex2-python-built.md)
+- [Exercise 2.3: In-job installation of Python](/materials/day3/part2-ex3-python-install.md)
+- [Bonus Exercise 2.4: Using containers](/materials/day3/part2-ex4-containers.md)
 
 ### Wednesday Afternoon: On Your Own
 
-- [Ideas for activities](UserSchool15WedActivities)
+- [Ideas for activities](/logistics/wednesday-activities.md)
 
 ## Thursday
 
@@ -127,8 +129,8 @@ status: in progress
 - [Exercise 4.1: Using a local shared filesystem for large input files](/materials/day4/part4-ex1-input.md)
 - [Exercise 4.2: Using a local shared filesystem for large output files](/materials/day4/part4-ex2-output.md)
 
-The submit host `user-training.osgconnect.net` will be active for about two weeks.  For long term use, please
-[sign up for OSG Connect](/materials/connect.md).
+The submit host `training.osgconnect.net` will be active for about two weeks.  For long term use, please
+[sign up for OSG Connect](https://osgconnect.net/).
 If you have any questions about the signup process, please email
 <user-support@opensciencegrid.org>
 
@@ -136,29 +138,28 @@ If you have any questions about the signup process, please email
 
 ### Friday Morning: From Science to Production Workflows
 
-- Lecture: From Science to Real Workflow ([PDF](/materials/day5/files/osgus18-day5-part1-real-workflows.pdf))
+- Lecture: From Science to Real Workflow ([PDF](/materials/day5/files/osgus18-day5-part1-real-workflows.pdf), [PPT](/materials/day5/files/osgus18-day5-part1-real-workflows.pptx))
 - [Exercise 1.1: Learn about Joe’s Desired Computing Work](/materials/day5/part1-ex1-science-intro.md)
 - [Exercise 1.2: Plan Overall Workflow](/materials/day5/part1-ex2-plan-workflow.md)
 
 ### Friday Morning: From Science to Production Workflows
 
 - Lecture: From Workflow to Automated Production
-  ([PDF](/materials/day5/files/osgus18-day5-part2-production-workflows.pdf))
+  ([PDF](/materials/day5/files/osgus18-day5-part2-production-workflows.pdf),[PPT](/materials/day5/files/osgus18-day5-part2-production-workflows.pptx))
 - [Exercise 1.3: Execute Joe’s Workflow](/materials/day5/part2-ex1-execute-workflow.md)
 - [Bonus Exercise 1.4: Further Optimization and Scaling](/materials/day5/part2-ex2-workflow-tuning.md)
 
 ### Friday Afternoon: HTC Showcase
 
-- Talk: [Dane Morgan](http://directory.engr.wisc.edu/mse/faculty/morgan_dane), Engineering:
-  *HTC for Engineering Better Materials* ([PDF](/materials/day5/files/osgus18-day5-part3-showcase1-dmorgan.pdf))
-- Talk: [Megan Frayer](https://payseur.genetics.wisc.edu/member.html), Genetics:
-  *Using HTC in Genomic Ancestry Analysis* ([PDF](/materials/day5/files/osgus18-day5-part3-showcase2-mfrayer.pdf))
-- Talk: [William Cocke](https://www.math.wisc.edu/~boston/), Mathematics:
-  *Building a Character Table Database: A Use of Condor in Pure Math*
-  ([PDF](/materials/day5/files/osgus18-day5-part3-showcase3-wcocke.pdf))
-- Talk: [Edgar Spalding](http://www.botany.wisc.edu/spalding.htm), Botany:
-  *HTC As a Tool to Study How Plant Genomes Function*
-  ([PDF](/materials/day5/files/osgus18-day5-part3-showcase4-espalding.pdf))
+- Talk: [Spencer Ericksen](https://cancer.wisc.edu/research/resources/ddc/smsf/), Small Molecule Facility (Carbone Cancer Center):
+  *Exploring Virtual Screening Approaches with HTC* ([PDF](/materials/day5/files/osgus18-day5-part3-showcase1-ericksen.pdf))
+- Talk: [Josh Karpel](https://www.physics.wisc.edu/people/joshkarpel), Physics:
+  *High-Throughput Computing in Atomic Physics* ([PPT](/materials/day5/files/osgus18-day5-part3-showcase2-karpel.pptx))
+- Talk: [Ross Kleiman](https://wid.wisc.edu/people/ross-kleiman/), Computer Sciences:
+  *High-Throughput Machine Learning from Electronic Health Records*
+  ([PPTX](/materials/day5/files/osgus18-day5-part3-showcase2-kleiman.pptx))
+- Talk: [Dave O'Connor](https://www.pathology.wisc.edu/profile/david-oconnor), Pathology:
+  *When Low Throughput Biologists Meet High Throughput Computing*
 
 ### Friday Afternoon: Foundations of HTC
 
